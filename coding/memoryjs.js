@@ -10,9 +10,23 @@ let anotherName =myYoutube;
 
 anotherName ="shree Krishna"
 
+console.log(myYoutube);
+
 console.log(anotherName);
 
 // it meins stack memory me kewal variable ki copy hi jati he orijanl value nhi jati he
 
 // heap memory 
 
+let userOne =
+{
+    email :"user@gamil.com",
+    upi :"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email ="vsr@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
